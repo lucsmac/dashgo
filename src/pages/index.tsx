@@ -1,5 +1,6 @@
 import { Flex, Button, Stack } from '@chakra-ui/react';
 import { Input } from './../components/Form/Input'
+import Head from 'next/head';
 
 export default function SignIn() {
   return (
@@ -9,6 +10,10 @@ export default function SignIn() {
       align="center" 
       justify="center"
     >
+      <Head>
+        <title>Login | Dashgo</title>
+      </Head>
+
       <Flex
         as="form"
         w="100%"
